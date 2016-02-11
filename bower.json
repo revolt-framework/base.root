@@ -1,0 +1,22 @@
+{
+  "name": "revolt.base.root",
+  "homepage": "https://github.com/revolt-framework/base.root",
+  "authors": [
+    {
+      "name": "Ruven Pelka",
+      "email": "ruven.pelka@gmail.com",
+      "homepage": "http://ruvenpelka.com"
+    }
+  ],
+  "description": "Revolt framework module to style global basic root elements.",
+  "main": "_base.root.scss",
+  "keywords": [
+    "revolt",
+    "oocss",
+    "css"
+  ],
+  "dependencies": {
+    "revolt.settings.defaults": "0.x.x"
+  },
+  "license": "MIT"
+}

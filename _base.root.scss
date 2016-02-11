@@ -1,0 +1,38 @@
+//
+// REVOLT!
+// BASE.ROOT
+//
+
+
+
+// Predefine the variables below to alter and enable specific features.
+
+$revo-font-family:    sans-serif !default;
+
+
+
+// Root styling
+//
+// 1. Set the root font size for the entire document.
+// 2. Set the base font size for all relative and non-rem sizes.
+// 3. Ensure the page always fills at least the entire height of the viewport.
+// 4. Prevent certain mobile browsers from automatically zooming fonts.
+// 5. Fonts on OSX will look more consistent with other systems that do not
+//    render text using sub-pixel anti-aliasing.
+
+html {
+    font-size: $revo-root-font-size; // [1]
+    min-height: 100%; // [3]
+    -webkit-text-size-adjust: 100%; // [4]
+    -ms-text-size-adjust: 100%; // [4]
+    -moz-osx-font-smoothing: grayscale; // [5]
+    -webkit-font-smoothing: antialiased; // [5]
+}
+
+body {
+    font-size: $revo-base-font-size; // [2]
+    font-family: $revo-font-family;
+    line-height: $revo-base-line-height;
+    color: $revo-base-color;
+    background: $revo-base-bg;
+}
